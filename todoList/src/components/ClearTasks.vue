@@ -5,18 +5,14 @@
 </template>
   
 <script>
-import { defineComponent } from 'vue';
-
 export default ({
   name: 'ClearTasks',
-  data() {
-    return {}
-  },
+  props: ['tasks'],
   methods: {
-        clearTasks() {
-            this.tasks = [];
-            this.taskCount = 0;
-        }
+    clearTasks() {
+        this.tasks = [];
+        this.taskCount = 0;
+    }
   }
 });
 </script>
