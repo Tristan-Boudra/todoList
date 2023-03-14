@@ -1,3 +1,7 @@
+# Warning
+
+Ma TodoList fonctionne mais dès que j'ai voulu la décomposer en composant j'ai eu des problèmes. Je pense que le problème vient du fait qu'il faut que j'utilise les propos (que j'ai commencé à faire).
+
 # todoList
 
 This template should help get you started developing with Vue 3 in Vite.
